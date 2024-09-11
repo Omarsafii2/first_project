@@ -1,8 +1,54 @@
-.img{
-    width: 200 px;
-    border-radius: 30px;
-}
 
 body{
-    background-color: blanchedalmond;
+    
+    
+}
+
+img{
+    border: 2px black solid ;
+    border-radius: 50%;
+    width: 200px;
+ 
+
+}
+
+#info{
+    background-color: rgb(96, 211, 142);
+    text-align: center;
+    
+   
+
+}
+
+#education{
+    background-color: rgb(182, 182, 236);
+    text-align: center;
+    
+}
+
+#certefications{
+    background-color: rgb(212, 204, 194);
+   
+}
+#skills{
+    background-color: rgb(224, 194, 215);
+}
+
+#addinfo{
+    background-color: rgb(194, 138, 138);
+}
+
+#myho{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.show{
+    display: none;
+}
+
+.hov:hover +.show{
+   
+    display: block;
+   
 }
